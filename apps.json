@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "Lenovo Vantage",
+      "path": "https://download.lenovo.com/pccbbs/thinkvantage_en/system_update_5.08.02.25.exe",
+      "include_dir": false,
+      "dirname": "",
+      "executable": "",
+      "args": "/verysilent /norestart"
+    }
+  ]
+}
