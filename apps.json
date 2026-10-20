@@ -6,7 +6,7 @@
       "include_dir": false,
       "dirname": "",
       "executable": "system_update_5.08.02.25.exe",
-      "args": "/VERYSILENT /NORESTART",
+"args": "/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART",
       "post_install_exe": "C:\\Program Files (x86)\\Lenovo\\System Update\\tvsu.exe",
       "post_install_args": "/CM -search A -action INSTALL -includerebootpackages 1,3,4,5 -noreboot -noicon -nocancel -log %TEMP%\\lenovo_su.log",
       "post_install_runs": 2
